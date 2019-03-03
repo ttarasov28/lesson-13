@@ -1,3 +1,5 @@
+*
+  box-sizing: border-box
 body
   +reg
 img
@@ -19,3 +21,26 @@ img
   background-color: $main-color
   border: none
   padding: 18px 30px
+  &:hover 
+    background-color: #ffb645
+    cursor: pointer
+.section
+  padding: 90px 0
+  &-title
+    font-size: 24px
+    line-height: 35px
+    +bold
+  &-subtitle
+    font-size: 16px
+    display: block
+  &-underbutton
+    display: flex
+    margin-top: 33px
+    justify-content: space-between
+.input
+  border: 1px solid $border-input
+  padding: 22px 26px
+  border-radius: 10px
+  font-size: 15px
+
+  
